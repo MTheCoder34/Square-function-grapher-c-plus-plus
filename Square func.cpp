@@ -16,11 +16,11 @@ void display(void)
     glClear(GL_COLOR_BUFFER_BIT);
     glBegin(GL_POINTS);
     glColor3f(1.0, 1.0, 1.0);
-    for (int i = -15 * 15 * 15; i < 15 * 15*15; i++)
+    for (int i = -15 * 15 * 15; i < 15 * 15 * 15; i++)
     {
         glVertex2i(0, i);
     }
-    for (int i = -15 * 15 * 15; i < 15*15*15; i++)
+    for (int i = -15 * 15 * 15; i < 15 * 15 * 15; i++)
     {
         glVertex2i(i, 0);
     }
